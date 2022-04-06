@@ -1,0 +1,48 @@
+@import '../../../css/variables.scss';
+
+.user-info-menu-wrapper {
+  &.ant-dropdown-open {
+    border-radius: 12px;
+    background-color: #f5f5f5;
+  }
+  .user-info-menu {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    .user-info {
+      line-height: 1.5;
+      margin-left: 8px;
+      width: 93px;
+      .welcome {
+        font-size: 12px;
+        color: #a2a5b9;
+      }
+      .user-name {
+        font-family: $main-font-600;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .anticon-down {
+      margin-left: 11px;
+    }
+  }
+}
+
+#user-info-menu-popup {
+  & > div {
+    top: -3px;
+    .ant-dropdown {
+      .ant-dropdown-menu {
+        border-radius: 10px;
+        padding: 9px 0;
+        .ant-dropdown-menu-item {
+          padding: 6px 21px;
+          margin: 2px 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import '../css/variables.scss';
+
+.date-picker-wrapper {
+  .date-picker-custom {
+    &:hover,
+    &.ant-picker-focused {
+      border-color: $primary-color-normal;
+    }
+    &.ant-picker-focused {
+      box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+    }
+  }
+
+  .date-picker-popup {
+    .ant-picker-body {
+      .ant-picker-content {
+        .ant-picker-cell-today {
+          .ant-picker-cell-inner {
+            &::before {
+              border-color: $primary-color-normal;
+            }
+          }
+        }
+        .ant-picker-cell-selected {
+          .ant-picker-cell-inner {
+            background-color: $primary-color-normal;
+          }
+        }
+      }
+    }
+    .ant-picker-footer {
+      * {
+        color: $primary-color-normal;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.check-my-order-status-wrapper {
+  padding: 14px 20px 20px;
+  width: 336px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  .ant-form {
+    .ant-form-item {
+      margin-bottom: 0;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      .ant-form-item-label {
+        padding: 0 0 4px;
+        label {
+          height: auto;
+        }
+      }
+      .button-custom {
+        width: 100%;
+      }
+    }
+  }
+}

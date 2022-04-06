@@ -1,0 +1,50 @@
+{
+  "name": "petro_ui_core",
+  "version": "0.0.3",
+  "main": "./build/index.js",
+  "module": "./build/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "decode-uri-component": "^0.2.0",
+    "feather-icons-react": "^0.4.1",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "rc-upload": "^3.1.2",
+    "react-lazyload": "^3.0.0",
+    "react-qr-code": "^1.0.2",
+    "react-redux": "^7.2.1",
+    "react-slider": "^1.0.7",
+    "redux": "^4.0.5",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "PORT=3001 && react-scripts start",
+    "build": "rm -rf build && NODE_ENV=production babel src/lib --out-dir build --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.0",
+    "antd": "^4.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  }
+}

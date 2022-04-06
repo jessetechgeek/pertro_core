@@ -1,0 +1,21 @@
+.download-mobile-wrapper {
+  .store {
+    width: 107px;
+    padding: 2px;
+    .appstore {
+      margin-bottom: 3px;
+    }
+  }
+
+  &.download-mobile-popup {
+    padding: 11px 11px 9px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.08),
+      0 9px 28px 0 rgba(0, 0, 0, 0.05), 0 12px 48px 16px rgba(0, 0, 0, 0.03);
+    .qr-wrapper {
+      flex: 0;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import '../css/variables.scss';
+
+.range-date-picker {
+  &:hover,
+  &:active,
+  &:focus,
+  &.ant-picker-focused {
+    border: 1px solid $primary-font-color;
+    box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+  }
+
+  border-radius: $input-radius;
+
+  .ant-picker-active-bar {
+    background: $outline-color-border-hover;
+  }
+}
+
+.ant-picker-cell {
+  &.ant-picker-cell-range-start,
+  &.ant-picker-cell-range-end {
+    .ant-picker-cell-inner {
+      background: $primary-color-normal;
+
+      &:before {
+        border: $primary-color-normal;
+      }
+    }
+  }
+
+  &.ant-picker-cell-in-range {
+
+  }
+}
+

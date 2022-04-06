@@ -1,0 +1,102 @@
+@import './variables.scss';
+
+@font-face {
+  font-family: $define-font-200;
+  src: local('./Fonts/Muli/static/Muli-ExtraLight.ttf'),
+    url('./Fonts/Muli/static/Muli-ExtraLight.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-200-italic;
+  src: local('./Fonts/Muli/static/Muli-ExtraLightItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-ExtraLightItalic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-300;
+  src: local('./Fonts/Muli/static/Muli-Light.ttf'),
+    url('./Fonts/Muli/static/Muli-Light.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-300-italic;
+  src: local('./Fonts/Muli/static/Muli-LightItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-LightItalic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-400;
+  src: local('./Fonts/Muli/static/Muli-Regular.ttf'),
+    url('./Fonts/Muli/static/Muli-Regular.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-400-italic;
+  src: local('./Fonts/Muli/static/Muli-Italic.ttf'),
+    url('./Fonts/Muli/static/Muli-Italic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-500;
+  src: local('./Fonts/Muli/static/Muli-Medium.ttf'),
+    url('./Fonts/Muli/static/Muli-Medium.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-500-italic;
+  src: local('./Fonts/Muli/static/Muli-MediumItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-MediumItalic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-600;
+  src: local('./Fonts/Muli/static/Muli-SemiBold.ttf'),
+    url('./Fonts/Muli/static/Muli-SemiBold.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-600-italic;
+  src: local('./Fonts/Muli/static/Muli-SemiBoldItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-SemiBoldItalic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-700;
+  src: local('./Fonts/Muli/static/Muli-Bold.ttf'),
+    url('./Fonts/Muli/static/Muli-Bold.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-700-italic;
+  src: local('./Fonts/Muli/static/Muli-BoldItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-BoldItalic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-800;
+  src: local('./Fonts/Muli/static/Muli-ExtraBold.ttf'),
+    url('./Fonts/Muli/static/Muli-ExtraBold.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-800-italic;
+  src: local('./Fonts/Muli/static/Muli-ExtraBoldItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-ExtraBoldItalic.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-900;
+  src: local('./Fonts/Muli/static/Muli-Black.ttf'),
+    url('./Fonts/Muli/static/Muli-Black.ttf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: $define-font-900-italic;
+  src: local('./Fonts/Muli/static/Muli-BlackItalic.ttf'),
+    url('./Fonts/Muli/static/Muli-BlackItalic.ttf') format('opentype');
+  font-display: swap;
+}
+
+body {
+  font-family: $main-font-500;
+}

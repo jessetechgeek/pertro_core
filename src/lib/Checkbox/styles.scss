@@ -1,0 +1,44 @@
+@import '../css/variables.scss';
+
+.checkbox-custom {
+  &.primary {
+    &:hover,
+    .ant-checkbox:hover {
+      .ant-checkbox-inner {
+        border-color: $primary-color-normal;
+      }
+    }
+    &.ant-checkbox-wrapper-checked {
+      .ant-checkbox-checked {
+        &::after {
+          border-color: $primary-color-normal;
+        }
+      }
+      .ant-checkbox-inner {
+        background-color: $primary-color-normal;
+        border-color: $primary-color-normal;
+      }
+    }
+    .ant-checkbox {
+      .ant-checkbox-input:focus + .ant-checkbox-inner {
+        border-color: $primary-color-normal;
+      }
+      &.ant-checkbox-checked {
+        .ant-checkbox-inner {
+          background-color: $primary-color-normal;
+          border-color: $primary-color-normal;
+        }
+        &::after {
+          border-color: $primary-color-normal;
+        }
+      }
+      &.ant-checkbox-indeterminate {
+        .ant-checkbox-inner {
+          &::after {
+            background-color: $primary-color-normal;
+          }
+        }
+      }
+    }
+  }
+}

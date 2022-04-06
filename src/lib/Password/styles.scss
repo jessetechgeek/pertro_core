@@ -1,0 +1,16 @@
+@import '../css/variables.scss';
+
+.password-custom {
+  border-radius: 4px;
+  &.primary {
+    &:hover,
+    &:focus,
+    &.ant-input-affix-wrapper-focused {
+      border-color: $primary-color-normal;
+    }
+    &:focus,
+    &.ant-input-affix-wrapper-focused {
+      box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+    }
+  }
+}

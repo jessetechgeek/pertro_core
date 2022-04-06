@@ -1,0 +1,7 @@
+@import '../css/variables.scss';
+
+.star-custom {
+  &.primary {
+    color: $primary-color-normal;
+  }
+}

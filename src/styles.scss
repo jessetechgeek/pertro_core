@@ -1,0 +1,17 @@
+.app {
+  .feature-wrapper {
+    margin: 20px;
+
+    .feature-item {
+      margin: 20px 0;
+
+      .carousel-banner {
+        text-align: center;
+        height: 160px;
+        line-height: 160px;
+        background: #F1F1F1;
+        overflow: hidden;
+      }
+    }
+  }
+}

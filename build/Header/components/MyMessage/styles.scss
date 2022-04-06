@@ -1,0 +1,8 @@
+.my-cart-wrapper {
+  cursor: pointer;
+  padding: 9px 14px;
+  border-radius: 4px;
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}

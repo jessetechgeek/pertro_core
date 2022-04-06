@@ -1,0 +1,82 @@
+.carousel-custom-wrapper {
+  .ant-carousel {
+    .carousel-custom {
+      .slick-arrow {
+        display: block;
+        span.anticon {
+          svg {
+            font-size: 20px;
+            color: #000;
+          }
+        }
+
+        //START type banner
+        &.banner {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+          top: 44%;
+          background-color: #ffffff;
+          border-radius: 50%;
+          span.anticon {
+            svg {
+              font-size: 20px;
+              color: #000000;
+            }
+          }
+        }
+        &.banner.slick-disabled {
+          background-color: #d8d8d8;
+          span.anticon {
+            svg {
+              font-size: 20px;
+              color: #f2f2f2;
+            }
+          }
+        }
+        &.slick-prev.banner {
+          left: 10px;
+        }
+        &.slick-next.banner {
+          right: 10px;
+        }
+        //END type banner
+
+        //START type two-rows
+        &.two-rows {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+          top: 46%;
+          background-color: #ffffff;
+          border-radius: 50%;
+          transition: visibility 0s, opacity 0.5s linear;
+          span.anticon {
+            svg {
+              font-size: 20px;
+              color: #000000;
+            }
+          }
+        }
+        &.two-rows.slick-disabled {
+          transition: visibility 0s, opacity 0.5s linear;
+          visibility: hidden;
+          opacity: 0;
+        }
+        &.slick-prev.two-rows {
+          left: 10px;
+        }
+        &.slick-next.two-rows {
+          right: 10px;
+        }
+        //END type two-row
+      }
+    }
+  }
+}

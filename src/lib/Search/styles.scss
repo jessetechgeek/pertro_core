@@ -1,0 +1,30 @@
+@import '../css/variables.scss';
+
+.ant-input-search,
+.search-custom {
+  &.primary,
+  &.ant-dropdown-trigger {
+    .ant-input-wrapper {
+      input {
+        &:hover,
+        &:focus {
+          border-color: $primary-color-normal;
+        }
+        &:focus {
+          box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+        }
+      }
+      .ant-input-group-addon {
+        button {
+          background: $primary-color-normal;
+          border-color: $primary-color-normal;
+          &:hover,
+          &:focus {
+            border-color: $primary-color-hover;
+            background-color: $primary-color-hover;
+          }
+        }
+      }
+    }
+  }
+}

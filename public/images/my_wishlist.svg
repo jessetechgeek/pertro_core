@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/ant/heart gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="6.95111266e-15%" id="linearGradient-1">
+            <stop stop-color="#FD3A84" offset="0%"></stop>
+            <stop stop-color="#FFA68D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/ant/heart-gradient" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M11.75,1.00015625 C9.8338125,1.00015625 8.58684375,1.999 8,2.61421875 C7.41315625,1.99896875 6.1661875,1.00015625 4.25,1.00015625 C1.88428125,1.00015625 0,3.03628125 0,5.63546875 C0,8.55553125 2.43084375,12.684125 7.79309375,15.3267812 C7.85809375,15.3588125 7.9295,15.3748438 8,15.3748438 C8.0705,15.3748438 8.14190625,15.3588125 8.20690625,15.3267812 C13.5691562,12.684125 16,8.55553125 16,5.63546875 C16,3.03628125 14.1157187,1.00015625 11.75,1.00015625 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+    </g>
+</svg>

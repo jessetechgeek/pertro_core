@@ -1,0 +1,32 @@
+@import '../css/variables.scss';
+
+.custom-select {
+  width: 120px;
+  &.ant-select-single.ant-select-lg:not(.ant-select-customize-input):not(.ant-select-customize-input)
+    .ant-select-selection-search-input {
+    height: 40px;
+  }
+  .ant-select-selector {
+    border-radius: 4px !important;
+  }
+  &.ant-select-focused {
+    .ant-select-selector {
+      border: 1px solid $primary-color-normal;
+      outline: $primary-color-normal;
+      box-shadow: none !important;
+    }
+  }
+
+  .ant-select-selector {
+    &:hover {
+      border: 1px solid $primary-color-normal;
+      outline: $primary-color-normal;
+      box-shadow: none !important;
+    }
+
+    &:focus {
+      outline: $primary-color-normal;
+      border: 1px solid $primary-color-normal;
+    }
+  }
+}

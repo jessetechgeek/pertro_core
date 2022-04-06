@@ -1,0 +1,26 @@
+@import '../css/variables.scss';
+
+.input-custom {
+  &.primary {
+    border-radius: 4px;
+    &:hover,
+    &:focus {
+      border-color: $primary-color-normal;
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+    }
+
+    &.ant-input-affix-wrapper:focus,
+    &.ant-input-affix-wrapper-focused {
+      border-color: $primary-color-normal;
+      box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+    }
+
+    &.ant-input-lg {
+      font-size: 14px;
+      padding: 8px 11px;
+      height: 40px;
+    }
+  }
+}

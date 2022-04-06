@@ -1,0 +1,26 @@
+@import '../css/variables.scss';
+.radio-group-custom {
+  &.primary {
+    .ant-radio {
+      &:not(.ant-radio-disabled):hover {
+        .ant-radio-inner {
+          border-color: $primary-color-normal;
+        }
+      }
+      &.ant-radio-checked {
+        .ant-radio-inner {
+          border-color: $primary-color-normal;
+          &:after {
+            background-color: $primary-color-normal;
+          }
+        }
+        &:after {
+          background-color: $primary-color-normal;
+        }
+      }
+      .ant-radio-input:focus + .ant-radio-inner {
+        box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+      }
+    }
+  }
+}

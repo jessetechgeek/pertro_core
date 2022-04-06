@@ -1,0 +1,57 @@
+@import '../css/variables.scss';
+
+.pagination-custom {
+  &.primary {
+    .ant-pagination-prev,
+    .ant-pagination-next {
+      .ant-pagination-item-link {
+        border-radius: 4px;
+        &:hover,
+        &:focus {
+          color: $primary-color-normal;
+          border-color: $primary-color-normal;
+        }
+      }
+    }
+    .ant-pagination-item {
+      border-radius: 4px;
+      &.ant-pagination-item-active,
+      &:hover,
+      &:focus {
+        border-color: $primary-color-normal;
+        background-color: $primary-color-normal;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+    .ant-pagination-jump-prev,
+    .ant-pagination-jump-next {
+      .ant-pagination-item-link {
+        .ant-pagination-item-container {
+          .ant-pagination-item-link-icon {
+            color: $primary-color-normal;
+          }
+        }
+      }
+    }
+    .ant-pagination-options {
+      .ant-select {
+        &:not(.ant-select-disabled):hover,
+        &.ant-select-focused {
+          .ant-select-selector {
+            border-color: $primary-color-normal;
+          }
+        }
+        &.ant-select-focused {
+          .ant-select-selector {
+            box-shadow: 0 0 0 2px rgba(255, 189, 24, 0.2) !important;
+          }
+        }
+      }
+      .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+        background-color: $primary-color-normal;
+      }
+    }
+  }
+}
